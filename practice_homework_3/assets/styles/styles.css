@@ -1,0 +1,219 @@
+/*https://www.figma.com/file/KvrZKhAiTZyJ77VHZCbHob/Antic-%E2%80%A2-Decoration-Landing-Page-(Community)?node-id=0%3A1&mode=dev*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    border: 2px solid white;
+    display: grid;
+    color: #EEEEEE;
+    background-color: #1f2022;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Caladea', serif;
+    font-family: 'Josefin Sans', sans-serif;
+    height: 160vh;
+
+
+}
+
+.header_container {
+    display: grid;
+    grid-template-columns: 30% auto 30%;
+    gap: 10px;
+    align-items: center;
+    height: 10vh;
+
+}
+
+.logo {
+    justify-content: start;
+    grid-column: 1 / 2;
+    font-size: 24px;
+
+    padding-left: 40px;
+
+}
+
+.nav {
+
+    grid-column: 2 / 3;
+
+}
+
+.nav a {
+    padding: 0 30px;
+    text-decoration: none;
+    color: #EEEEEE;
+    font-size: 20px;
+}
+
+.nav a:hover {
+    color: #00ADB5;
+}
+
+.nav a:first-of-type {
+    color: #00adb5;
+
+}
+
+.nav a:first-of-type:hover {
+    color: #EEEEEE;
+}
+
+.button {
+
+    grid-column: 3 / 4;
+    width: 165px;
+    height: 50px;
+    justify-self: center;
+    font-family: 'Caladea', serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+
+
+}
+
+.button:hover {
+    background-color: #00ADB5;
+}
+
+.main {
+
+    display: grid;
+    grid-template-columns: 55% 45%;
+    grid-template-rows: repeat(6, 1fr);
+    height: 70vh;
+}
+
+.image-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+
+    position: relative;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.img {
+
+    background-image: url(../images/backpic.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+
+}
+
+.image-container h1 {
+    position: absolute;
+    transform: translate(30px, 400px);
+    color: #00adb5;
+    font-size: 26px;
+}
+
+.content {
+    position: absolute;
+    transform: translate(30px, 800px);
+    color: #EEEEEE;
+    font-weight: bold;
+    width: 380px;
+    height: 80px;
+
+
+}
+
+.image-container span {
+    color: #00adb5;
+    padding-right: 10px;
+}
+
+.sidebar {
+    display: grid;
+    grid-template-rows: 20vh 20vh 25vh 5vh 20vh;
+
+
+}
+
+.hello {
+
+    display: grid;
+    align-items: end;
+    font-size: 18px;
+
+}
+
+.name {
+
+    display: grid;
+    align-items: center;
+    font-size: 120px;
+    color: #00ADB5;
+}
+
+.text {
+    display: grid;
+    align-items: start;
+    font-size: 16px;
+    width: 559px;
+    height: 120px;
+    opacity: 0.5;
+}
+
+.shots {
+
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.shots a {
+    color: #00ADB5;
+    text-decoration: none;
+}
+
+.shots a:hover {
+    color: #EEEEEE;
+}
+
+.cards {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-items: end;
+
+
+
+}
+
+.card-second {
+    padding-left: 100px;
+
+
+}
+
+.footer {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    height: 10vh;
+
+}
+
+.footer a {
+    display: grid;
+    align-items: center;
+    justify-content: space-around;
+    text-decoration: none;
+    color: #EEEEEE;
+}
+
+.footer a:hover {
+    color: #00ADB5;
+}
